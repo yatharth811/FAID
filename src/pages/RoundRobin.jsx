@@ -54,7 +54,10 @@ const Home = (props) => {
             <li>While <Math eq={"\\(\\exists \\)"}/> unallocated goods:</li>
             <ol>
               <li>
-                 An agent <Math eq={"\\(a_i \\)"}/> will choose a good with maximum valuation (according to him) from the available goods.
+                 An agent <Math eq={"\\(a_i \\)"}/> will choose a good with maximum valuation (according to him) from the available goods, say this good is <Math eq={"\\(g_j \\)"}/>.
+              </li>
+              <li>
+                Finally, <Math eq={"\\(A_i  = A_i \\cup \\{g_j\\}\\)"}/>, where <Math eq={"\\(A_i \\)"}/> is the set of goods allocated to agent <Math eq={"\\(a_i \\)"}/>.
               </li>
             </ol>
           </ol>
