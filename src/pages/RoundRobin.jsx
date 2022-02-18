@@ -54,14 +54,7 @@ const Home = (props) => {
             <li>While <Math eq={"\\(\\exists \\)"}/> unallocated goods:</li>
             <ol>
               <li>
-                find a node <Math eq={"\\(j \\)"}/> with in-degree = 0, i.e. find an agent that no one
-                envies, allocate the good to that agent.
-              </li>
-              <li>
-                if there doesn’t exist a node with node with in-degree = 0, then
-                this implies there exists a cycle in envy graph, in such case,
-                rotate the bundles among the agents along the cycle, and hence
-                by definition cycle will be removed.
+                 An agent <Math eq={"\\(a_i \\)"}/> will choose a good with maximum valuation (according to him) from the available goods.
               </li>
             </ol>
           </ol>
@@ -69,15 +62,16 @@ const Home = (props) => {
 
         <h3>Note</h3>
         <ul>
-          <li>
+          {/* <li>
             An envy graph is a directed graph with agents as vertices, and
             directed edge from <Math eq={"\\(a_i \\)"}/> to <Math eq={"\\(a_j \\)"}/> represents that <Math eq={"\\(a_i \\)"}/> envies <Math eq={"\\(a_j \\)"}/>.
-          </li>
+          </li> */}
           <li>
-            At every step of the algorithm, the allocation is EF1. Since we
+            {/* At every step of the algorithm, the allocation is EF1. Since we
             allocate good to an agent which no one envies at every step, then if
             we remove that good, the allocation is EF1 with respect to that
-            good.
+            good. */}
+            Proofs to be added soon.
           </li>
         </ul>
 
