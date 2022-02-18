@@ -153,6 +153,8 @@ const StyledHome = styled.div`
         .image-container {
           width: 100%;
           img {
+            aspect-ratio: 1/1;
+            object-fit: contain;
             width: 100%;
           }
         }

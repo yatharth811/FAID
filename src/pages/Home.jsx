@@ -254,7 +254,7 @@ const Home = (props) => {
           <Link to="/round-robin" className="grid-item">
             <div className="image-container">
               <img
-                src="img ka url lgalio"
+                src="https://online.visual-paradigm.com/servlet/editor-content/knowledge/brainstorming/what-is-round-robin-brainstorming/sites/7/2020/03/round-robin-brainstorming.png"
                 alt="Round Robin Algorithm"
               />
             </div>
