@@ -250,6 +250,30 @@ const Home = (props) => {
               </a>
             </div>
           </Link>
+
+          <Link to="/round-robin" className="grid-item">
+            <div className="image-container">
+              <img
+                src="img ka url lgalio"
+                alt="Round Robin Algorithm"
+              />
+            </div>
+            <div className="heading">Round Robin Algorithm</div>
+            <div className="buttons-container">
+              <Button color="primary" variant="contained">
+                Read
+              </Button>
+              <a
+                href="https://yatharth811.github.io/Round-Robin-Algorithm/"
+                target="_blank"
+                onClick={(e) => e.stopPropagation()}
+              >
+                <Button color="success" variant="contained">
+                  Visualize
+                </Button>
+              </a>
+            </div>
+          </Link>
         </div>
       </section>
     </StyledHome>

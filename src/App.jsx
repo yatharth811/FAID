@@ -7,8 +7,13 @@ import GlobalStyle from "./styles/GlobalStyle";
 
 // Pages
 import Home from "./pages/Home";
+
 import CycleElimination from "./pages/CycleElimination";
 import CycleEliminationVisualize from "./pages/CycleEliminationVisualize";
+
+import RoundRobin from "./pages/RoundRobin";
+import RoundRobinVisualize from "./pages/RoundRobinVisualize";
+
 import Page404 from "./pages/Page404";
 
 // Components
@@ -36,6 +41,12 @@ const App = (props) => {
               <Route
                 path="/cycle-elimination-visualize"
                 element={<CycleEliminationVisualize />}
+              />
+
+              <Route path="/round-robin" element={<RoundRobin />} />
+              <Route
+                path="/round-robin-visualize"
+                element={<RoundRobinVisualize />}
               />
 
               <Route path="*" element={<Page404 />} />

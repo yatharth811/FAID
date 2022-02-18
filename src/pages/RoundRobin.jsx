@@ -20,14 +20,14 @@ const Math = (props) => {
 
 const Home = (props) => {
   const history = useNavigate();
-  document.title = "Cycle Elimination Algorithm";
+  document.title = "Round Robin Algorithm";
 
   const sectionRef = useRef(null);
 
   return (
     <StyledHome>
       <section className="top-section transparent-background">
-        <h1>Cycle Elimination Algorithm</h1>
+        <h1>Round Robin Algorithm</h1>
         <IconButton
           onClick={() =>
             sectionRef.current?.scrollIntoView({ behaviour: "smooth" })
@@ -39,10 +39,10 @@ const Home = (props) => {
 
       <section className="text-section responsive" ref={sectionRef}>
       <MathJaxContext>
-        <h1>Cycle Elimination Algorithm</h1>
+        <h1>Round Robin Algorithm</h1>
 
         <p>
-          Cycle Elimination Algorithm is a fair division algorithm that outputs
+          Round Robin Algorithm is a fair division algorithm that outputs
           an EF1 Allocation in polynomial time complexity.
         </p>
 
@@ -83,7 +83,7 @@ const Home = (props) => {
 
         <a
           className="center-button"
-          href="https://yatharth811.github.io/GraphVisualizer/cycle-elimination-visualize.html"
+          href="https://yatharth811.github.io/Round-Robin-Algorithm/"
           target="_blank"
           onClick={(e) => e.stopPropagation()}
         >
