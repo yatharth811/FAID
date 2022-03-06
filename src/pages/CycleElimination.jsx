@@ -79,7 +79,11 @@ const Home = (props) => {
             we remove that good, the allocation is EF1 with respect to that
             good.
           </li>
-          <li>Proofs to be added soon.</li>
+          <li>
+            <Link to="/cycle-elimination-proof">
+              Why does this algorithm work?  
+            </Link>
+          </li>
         </ul>
 
         <a
