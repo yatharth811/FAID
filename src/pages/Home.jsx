@@ -19,14 +19,14 @@ const Math = (props) => {
 
 const Home = (props) => {
   const history = useNavigate();
-  document.title = "Algorithms";
+  document.title = "Fair Allocation of Indivisible Goods";
 
   const sectionRef = useRef(null);
 
   return (
     <StyledHome>
       <section className="top-section transparent-background">
-        <h1>Algorithms</h1>
+        <h1>Fair Allocation of Indivisible Goods</h1>
         <IconButton
           onClick={() =>
             sectionRef.current?.scrollIntoView({ behaviour: "smooth" })

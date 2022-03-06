@@ -14,6 +14,8 @@ import CycleEliminationVisualize from "./pages/CycleEliminationVisualize";
 import RoundRobin from "./pages/RoundRobin";
 import RoundRobinVisualize from "./pages/RoundRobinVisualize";
 
+import RoundRobinProof from "./pages/RoundRobinProof";
+
 import Page404 from "./pages/Page404";
 
 // Components
@@ -47,6 +49,11 @@ const App = (props) => {
               <Route
                 path="/round-robin-visualize"
                 element={<RoundRobinVisualize />}
+              />
+
+              <Route
+                path="/round-robin-proof"
+                element={<RoundRobinProof />}
               />
 
               <Route path="*" element={<Page404 />} />

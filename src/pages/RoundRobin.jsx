@@ -57,7 +57,7 @@ const Home = (props) => {
                  An agent <Math eq={"\\(a_i \\)"}/> will choose a good with maximum valuation (according to him) from the available goods, say this good is <Math eq={"\\(g_j \\)"}/>.
               </li>
               <li>
-                Finally, <Math eq={"\\(A_i  = A_i \\cup \\{g_j\\}\\)"}/>, where <Math eq={"\\(A_i \\)"}/> is the set of goods allocated to agent <Math eq={"\\(a_i \\)"}/>.
+                Finally, <Math eq={"\\(A_i  = A_i \\cup \\; \\{g_j\\}\\)"}/>, where <Math eq={"\\(A_i \\)"}/> is the set of goods allocated to agent <Math eq={"\\(a_i \\)"}/>.
               </li>
             </ol>
           </ol>
@@ -70,11 +70,9 @@ const Home = (props) => {
             directed edge from <Math eq={"\\(a_i \\)"}/> to <Math eq={"\\(a_j \\)"}/> represents that <Math eq={"\\(a_i \\)"}/> envies <Math eq={"\\(a_j \\)"}/>.
           </li> */}
           <li>
-            {/* At every step of the algorithm, the allocation is EF1. Since we
-            allocate good to an agent which no one envies at every step, then if
-            we remove that good, the allocation is EF1 with respect to that
-            good. */}
-            Proofs to be added soon.
+            <Link to="/round-robin-proof">
+              Why does this algorithm work?  
+            </Link>
           </li>
         </ul>
 
